@@ -17,6 +17,7 @@ api_key = st.secrets["API_KEY"]
 # Fetch another secret
 db_password = st.secrets["DB_PASSWORD"]
 
+#write
 st.write("✅ Secrets fetched successfully!")
-st.write(f"API key length: {len(api_key)}")  # Don't print actual keys in production
-#Adding Content in Develop Branch
+st.write(f"API key length: {len(api_key)}")  # Don't print actual keys in production5
+#Adding content in develop branch
