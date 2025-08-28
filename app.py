@@ -13,6 +13,7 @@ def predict(hours_slept):
 prediction = predict(hours)
 st.write(f"Prediction: **{prediction}**")
 
+
 api_key = st.secrets["API_KEY"]
 
 # Fetch another secret
