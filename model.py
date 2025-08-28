@@ -8,3 +8,6 @@ def get_model():
     return clf, iris
 print("This is a sample file")
 print("This is a second sample line")
+print("This is a second sample line")
+print("This is a second sample line")
+print("This is a second sample line")
