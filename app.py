@@ -8,11 +8,12 @@ hours = st.slider("How many hours did you sleep?", 0, 12, 6)
 # Basic ML-like logic
 def predict(hours_slept):
     return "no energy" if hours_slept < 6 else "Not Tired 😃"
-
+# where are you now
+#i am here
 # Show prediction
 prediction = predict(hours)
 st.write(f"Prediction: **{prediction}**")
-st.write("**")
+st.write("*where are you*")
 
 api_key = st.secrets["API_KEY"]
 
