@@ -6,3 +6,5 @@ def get_model():
     clf = DecisionTreeClassifier()
     clf.fit(iris.data, iris.target)
     return clf, iris
+#hello world
+#changes made
