@@ -19,5 +19,5 @@ api_key = st.secrets["API_KEY"]
 # Fetch another secret
 db_password = st.secrets["DB_PASSWORD"]
 
-st.write("✅ Secrets fetched successfully!")
+st.write("✅ Secrets fetched succussfuly!")
 st.write(f"API key length: {len(api_key)}")  # Don't print actual keys in production
