@@ -7,3 +7,4 @@ def get_model():
     clf.fit(iris.data, iris.target)
     return clf, iris
 print("This is a sample file")
+print("This is a second sample line")
